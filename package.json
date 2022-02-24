@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "yarn build:styles && tsc && vite build",
     "preview": "vite preview",
-    "build:styles": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "build:styles": "npx tailwindcss -i ./src/index.css -o ./dist/output.css"
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
