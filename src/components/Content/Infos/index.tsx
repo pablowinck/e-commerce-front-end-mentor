@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import IconCard from "../../IconCard";
 
 // import { Container } from './styles';
 
@@ -63,7 +64,7 @@ const Infos: React.FC = () => {
             </button>
           </div>
           <button className="flex items-center justify-center gap-4 h-full w-4/6 rounded-lg bg-orange hover:shadow-lg text-md font-bold text-white">
-            <img className="brightness-200" src="/images/icon-cart.svg" />
+            <IconCard className="fill-white" />
             Add to cart
           </button>
         </div>

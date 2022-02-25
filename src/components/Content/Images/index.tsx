@@ -31,7 +31,7 @@ const Images: React.FC = () => {
           <div
             onClick={() => setSelected(img)}
             key={id}
-            className="cursor-pointer h-14 w-full rounded-lg overflow-hidden hover:shadow-lg"
+            className="cursor-pointer h-14 w-full rounded-lg overflow-hidden hover:brightness-50 transition-all duration-300"
           >
             <img src={img} alt={`img${id}`} />
           </div>
